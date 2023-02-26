@@ -28,9 +28,9 @@ function App() {
           {/* hompage route */}
           <Route path="/" element={<Home />} />
           {/* single product route */}
-          <Route path="/product/:id" element={ProductSingle} />
+          <Route path="/product/:id" element={<ProductSingle />} />
           {/* category wise listing route */}
-          <Route path="/category/:category" element={CategoryProduct} />
+          <Route path="/category/:category" element={<CategoryProduct />} />
           {/* cart */}
           <Route path="/cart" element={<Cart />} />
           {/* searched products */}

@@ -4,7 +4,6 @@ import { formatPrice } from "../../utils/helpers";
 import "./Product.scss";
 
 const Product = ({ product }) => {
-  console.log(product);
   return (
     <Link to={`/product/${product?.id}`} key={product?.id}>
       <div className="product-item bg-white">
